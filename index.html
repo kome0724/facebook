@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<link rel="stylesheet" href="stylesheet.css">
+
+	<title>Facebook - ログイン</title>
+</head>
+
+<body>
+	<header>
+		<div class="bg-head">
+			<div class="container">
+				<nav class="navbar navbar-expand-md navbar-dark row">
+					<a href="" class="navbar-brand font-weight-bold col-6"><h1>facebook</h1></a>
+					<button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div id="menu" class="text-dark collapse navbar-collapse dropdown-menu-right col-6">
+						<table class="navbar-nav ml-auto text-white">
+							<tr>
+								<td><label for="mail">メールアドレスまたは電話番号</label></td>
+								<td><label for="pass">パスワード</label></td>
+							</tr>
+							<tr>
+								<td><input type="text" name="mail" id="mail"></td>
+								<td><input type="text" name="pass" id="pass"></td>
+								<td><button type="button" class="">ログイン</button></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td><a href="">アカウントを忘れた場合</a></td>
+							</tr>
+						</table>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="py-5">
+			<div class="bg-main">
+				<div class="container">
+					<div class="mb-5 row">
+						<section class="col-md-6 mb-5 non-mb-md-5">
+							<p>Facebookを使うと、友達や同僚、同級生、仲間たちとつながりを深められます。ケータイ、スマートフォンからもアクセスできます。</p>
+							<img src="image/facebook.png" alt="" class="w-100">
+						</section>
+						<section class="col-md-6">
+							<h3>アカウント登録</h3>
+							<p>簡単に登録できます。</p>
+							<form action="">
+								<div class="input">
+									<input type="text" name="first" placeholder="姓">
+									<input type="text" name="last" placeholder="名">
+									<input type="text" name="adress" placeholder="携帯電話番号またはメールアドレス">
+									<input type="text" name="pas" placeholder="パスワード">
+								</div>
+								<div class="day">
+									<p>誕生日</p>
+									<div>
+										<select id="select_year" name="year" class="p-1">
+											<option value="">年</option>
+											<option value="2000">2000</option>
+											<option value="2001">2001</option>
+											<option value="2002">2002</option>
+											<option value="2003">2003</option>
+											<option value="2004">2004</option>
+											<option value="2005">2005</option>
+											<option value="2006">2006</option>
+											<option value="2007">2007</option>
+											<option value="2008">2008</option>
+											<option value="2009">2009</option>
+										</select>
+										<select id="select_month" name="month" class="p-1">
+											<option value="">月</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+											<option value="6">6</option>
+											<option value="7">7</option>
+											<option value="8">8</option>
+											<option value="9">9</option>
+											<option value="10">10</option>
+											<option value="11">11</option>
+											<option value="12">12</option>
+										</select>
+										<select id="select_day" name="day" class="p-1">
+											<option value="">日</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+											<option value="6">6</option>
+											<option value="7">7</option>
+										</select>
+										<span title="詳細はここをクリック" class="fa fa-question-circle"></span>
+									</div>
+								</div>
+								<div class="sex">
+									<p>性別</p>
+									<div>
+										<input type="radio" name="sex" value="女性">女性
+										<input type="radio" name="sex" value="男性">男性
+										<input type="radio" name="sex" value="カスタム">カスタム
+										<span title="詳しくはこちらをクリックしてください" class="fa fa-question-circle"></span>
+									</div>
+								</div>
+								<p>[アカウント登録]をクリックすることで、<a href="">利用規約</a>、<a href="">データに関するポリシー</a>、<a
+										href="">Cookieポリシー</a>に同意するものとします。サービスに関連してFacebookからSMS通知が届くことがありますが、これはいつでもオフに設定できます。</p>
+								<button type="button" class="btn btn-success">アカウント登録</button>
+							</form>
+							<p>有名人、バンド、ビジネスのために<a href="">Facebookページを作成</a></p>
+						</section>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="container">
+			<ul>
+				<li>日本語</li>
+				<li><a href="">English (US)</a></li>
+				<li><a href="">Português (Brasil)</a></li>
+				<li><a href="">中文(简体)</a></li>
+				<li><a href="">Tiếng Việt</a></li>
+				<li><a href="">Español</a></li>
+				<li><a href="">Bahasa Indonesia</a></li>
+				<li><a href="">한국어</a></li>
+				<li><a href="">Français (France)</a></li>
+				<li><a href="">Deutsch</a></li>
+				<li><a href="">Italiano</a></li>
+			</ul>
+			<div id="line"></div>
+			<ul>
+				<li><a href="">アカウント登録</a></li>
+				<li><a href="">ログイン</a></li>
+				<li><a href="">Messenger</a></li>
+				<li><a href="">Facebook Lite</a></li>
+				<li><a href="">Watch</a></li>
+				<li><a href="">ユーザー</a></li>
+				<li><a href="">ページ</a></li>
+				<li><a href="">ページカテゴリ</a></li>
+				<li><a href="">スポット</a></li>
+				<li><a href="">ゲーム</a></li>
+				<li><a href="">場所</a></li>
+				<li><a href="">Marketplace</a></li>
+				<li><a href="">グループ</a></li>
+				<li><a href="">instagram</a></li>
+				<li><a href="">ローカル</a></li>
+				<li><a href="">募金キャンペーン</a></li>
+				<li><a href="">サービス</a></li>
+				<li><a href="">Facebookについて</a></li>
+				<li><a href="">広告を作成</a></li>
+				<li><a href="">ページを作成</a></li>
+				<li><a href="">開発者</a></li>
+				<li><a href="">採用情報</a></li>
+				<li><a href="">プライバシー</a></li>
+				<li><a href="">Cookie</a></li>
+				<li><a href="">AdChoices</a></li>
+				<li><a href="">規約</a></li>
+				<li><a href="">ヘルプ</a></li>
+			</ul>
+			<div class="copyright text-muted py-4">
+				Facebook © 2020
+			</div>
+		</div>
+	</footer>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+	<script>
+		$(function () {
+			'use strict';
+			$('[data-toggle="tooltip"]').tooltip();
+		})
+	</script>
+</body>
+
+</html>

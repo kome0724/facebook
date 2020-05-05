@@ -1,0 +1,65 @@
+a:hover {
+  text-decoration: underline;
+}
+
+header .bg-head {
+  background-color: #3b5998;
+}
+
+header h1 {
+  font-weight: bold;
+}
+
+header td {
+  padding-right: 14px;
+}
+
+header td input {
+  border: solid 2px #1d2a5b;
+}
+
+header td button {
+  background-color: #4267B2;
+  color: white;
+  font-size: 9px;
+  font-weight: bold;
+  line-height: 28px;
+  border: solid 1px #29487D;
+}
+
+header td a {
+  color: #9cb4d8;
+}
+
+header td a:hover {
+  color: #9cb4d8;
+}
+
+main .bg-main {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#d3d8e8));
+  background: linear-gradient(to bottom, #ffffff, #d3d8e8);
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+
+footer ul li {
+  list-style: none;
+  margin-right: 10px;
+}
+
+footer a {
+  color: #385898;
+}
+
+footer a:hover {
+  color: #385898;
+}
+/*# sourceMappingURL=stylesheet.css.map */
