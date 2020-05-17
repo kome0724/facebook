@@ -40,6 +40,11 @@ main .bg-main {
   background: linear-gradient(to bottom, #ffffff, #d3d8e8);
 }
 
+main .max {
+  width: 72%;
+  margin-top: 10px;
+}
+
 footer ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -61,5 +66,9 @@ footer a {
 
 footer a:hover {
   color: #385898;
+}
+
+footer .line {
+  border: solid 1px #DDDFE2;
 }
 /*# sourceMappingURL=stylesheet.css.map */

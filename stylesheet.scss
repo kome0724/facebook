@@ -37,6 +37,10 @@ main {
 	.bg-main {
 		background: linear-gradient(to bottom, #ffffff, #d3d8e8);
 	}
+	.max{
+		width: 72%;
+		margin-top: 10px;
+	}
 }
 
 footer {
@@ -54,5 +58,8 @@ footer {
 		&:hover {
 			color: #385898;
 		}
+	}
+	.line{
+		border: solid 1px #DDDFE2;
 	}
 }
